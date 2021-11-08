@@ -3,9 +3,11 @@ In this challenge, we build further analysis off of our previous module work. No
 
 ## Results
 We were able to find the initial list of who is about to retire using a join of the employees data and the titles data. Applying a filter allowed us to retrieve the names of everyone born between 1952 and 1955 along with their titles. What I retrieved is below:
+
 ![](rt.png)
 
 However, this table contained duplicate employees if they have held more than one position at Pewlett Hackard. To remove the duplicate names and only display their current role, I used the DISTINCT ON statement to only display the most recent position. This provided a table with no duplicates and only active roles:
+
 ![](ut.png)
 
 Finally, with only active data and no duplicates, I did a count of each title to determine how many people holding specific titles were about to retire. What I retrieved is below: 
@@ -20,4 +22,4 @@ The second set of data that was requested is a list of people who were born in 1
 Based off the data:
 1. There are many roles that will need to be filled soon as people begin to retire. In fact, 90,398 roles will need to be filled, which is a substantial amount of roles.
 2. From the data I pulled, there 1549 people that qualify to be mentors. Simply put, that is not enough mentors to equip the next generation within Pewlett Hackard. It is, however, a good number of mentors that could be assigned to younger top candidates to prioritize propping up younger leadership. PH should not abandon the mentor program, but they should look for something to supplement it with.
-3. 
+3. There are a number of queries that could provide additional insight on the upcoming silver tsunami. For example, we could find the number of employees that are not about to retire to get a number of employees that would need mentoring. This would help us to find a mentor to mentee ratio and help further plan how to prop up the next generation. We could further dive into this to prioritze those who have been with PH longer, or have more experience, to mentor and elevate the most qualified employees. Lastly, we could work with PH to obtain an order of authority/seniority for roles. We could then filter only higher authority roles to identify others who would be most qualified to be elevated into roles of leadership (i.e. we could exclude assistant roles and other entry-level roles).
