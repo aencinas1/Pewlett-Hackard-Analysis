@@ -19,3 +19,5 @@ The second set of data that was requested is a list of people who were born in 1
 ## Summary
 Based off the data:
 1. There are many roles that will need to be filled soon as people begin to retire. In fact, 90,398 roles will need to be filled, which is a substantial amount of roles.
+2. From the data I pulled, there 1549 people that qualify to be mentors. Simply put, that is not enough mentors to equip the next generation within Pewlett Hackard. It is, however, a good number of mentors that could be assigned to younger top candidates to prioritize propping up younger leadership. PH should not abandon the mentor program, but they should look for something to supplement it with.
+3. 
